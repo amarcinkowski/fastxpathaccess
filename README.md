@@ -1,4 +1,4 @@
-# fastXPathAccess
+# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess)
 
 ## Usage example
 
