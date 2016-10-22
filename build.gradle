@@ -4,6 +4,7 @@ plugins {
 }
 
 apply plugin: 'java'
+apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
 
 repositories {
@@ -16,4 +17,36 @@ repositories {
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.13'
     testCompile 'junit:junit:4.12'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+	        from components.java
+	            groupId 'io.github.amarcinkowski'
+	            artifactId 'fastxpathaccess'
+	            version '1.0.2'
+        }
+    }
+}
+
+bintray {
+    user = System.getenv('BINTRAY_USER')
+    key = System.getenv('BINTRAY_KEY')
+    publications = ['MavenPublication'] 
+    dryRun = false //Whether to run this as dry-run, without deploying
+    publish = true //If version should be auto published after an upload
+    pkg {
+        repo = 'amarcinkowski-repo'
+        name = 'fastxpathaccess'
+        licenses = ['MIT']
+        websiteUrl = 'https://github.com/amarcinkowski/fastxpathaccess'
+        vcsUrl = 'https://github.com/amarcinkowski/fastxpathaccess.git'
+        version {
+	        name = '1.0.2'
+	        desc = 'fast XPath Access'
+	        released  = new Date()
+	        vcsTag = '1.0.2'
+	    }
+    }
 }
