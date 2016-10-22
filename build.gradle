@@ -25,7 +25,7 @@ publishing {
 	        from components.java
 	            groupId 'io.github.amarcinkowski'
 	            artifactId 'fastxpathaccess'
-	            version '1.0.4'
+	            version version
         }
     }
 }
@@ -42,10 +42,10 @@ bintray {
         websiteUrl = 'https://github.com/amarcinkowski/fastxpathaccess'
         vcsUrl = 'https://github.com/amarcinkowski/fastxpathaccess.git'
         version {
-	        name = '1.0.4'
+	        name = version
 	        desc = 'fast XPath Access'
 	        released  = new Date()
-	        vcsTag = '1.0.4'
+	        vcsTag = version
 	    }
     }
 }
