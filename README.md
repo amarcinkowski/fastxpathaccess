@@ -1,8 +1,8 @@
-# fastxpathaccess
-Just give me the xpath result
+# fastXPathAccess
 
-Instead of many lines of code use
-
+## Usage
 ```
-Xpath.find(Paths.get("bookstore.xml"), "/bookstore/book[1]/title/@lang");
+Path filepath = Paths.get("bookstore.xml");
+Xpath.find(filepath, "/bookstore/book[1]/title/@lang");
 ```
+returns ```String[]```
