@@ -1,5 +1,6 @@
 plugins {
   id 'net.researchgate.release' version '2.4.0'
+  id "com.jfrog.bintray" version "1.7"
 }
 
 apply plugin: 'java'
@@ -7,6 +8,9 @@ apply plugin: 'eclipse'
 
 repositories {
     jcenter()
+    maven {
+        url  "http://dl.bintray.com/amarcinkowski/amarcinkowski-repo" 
+    }
 }
 
 dependencies {
