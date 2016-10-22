@@ -15,7 +15,7 @@ import org.junit.Test;
  *
  * @author amarcinkowski, @date 22.10.16 16:31
  */
-public class LibraryTest {
+public class XpathTest {
 
 	private final static String TEST_XML = "src/test/resources/bookstore.xml";
 	private final static String XPATH_AUTOR = "/bookstore/book[1]/author";
