@@ -1,5 +1,8 @@
 package io.github.amarcinkowski.fastxpathaccess;
+
 import static org.junit.Assert.*;
+
+import java.nio.file.Paths;
 
 import org.junit.Test;
 
@@ -10,9 +13,12 @@ import org.junit.Test;
  * @author amarcinkowski, @date 22.10.16 16:31
  */
 public class LibraryTest {
-	
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-    }
+
+	private final static String TEST_XML = "src/test/resources/bookstore.xml";
+	private final static String XPATH_AUTOR = "/bookstore/book[1]/author";
+
+	@Test
+	public void testSomeLibraryMethod() {
+		assertEquals("Giada De Laurentiis", Library.someLibraryMethod(Paths.get(TEST_XML), XPATH_AUTOR));
+	}
 }
