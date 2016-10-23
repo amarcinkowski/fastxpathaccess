@@ -1,4 +1,4 @@
-# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess)
+# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess) [ ![Download](https://api.bintray.com/packages/amarcinkowski/amarcinkowski-repo/fastxpathaccess/images/download.svg) ](https://bintray.com/amarcinkowski/amarcinkowski-repo/fastxpathaccess/_latestVersion)
 
 ## Dependency
 ### Maven
