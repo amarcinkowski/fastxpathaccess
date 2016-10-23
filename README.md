@@ -1,4 +1,4 @@
-# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess) [ ![Download](https://api.bintray.com/packages/amarcinkowski/amarcinkowski-repo/fastxpathaccess/images/download.svg) ](https://bintray.com/amarcinkowski/amarcinkowski-repo/fastxpathaccess/_latestVersion)
+# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess) [ ![Download](https://api.bintray.com/packages/amarcinkowski/amarcinkowski-repo/fastxpathaccess/images/download.svg) ](https://bintray.com/amarcinkowski/amarcinkowski-repo/fastxpathaccess/_latestVersion) [![Coverage Status](https://coveralls.io/repos/github/amarcinkowski/fastxpathaccess/badge.svg)](https://coveralls.io/github/amarcinkowski/fastxpathaccess)
 
 ## Dependency
 ### Maven
@@ -6,14 +6,15 @@
 <dependency>
   <groupId>io.github.amarcinkowski</groupId>
   <artifactId>fastxpathaccess</artifactId>
-  <version>1.0.6</version>
-  <type>pom</type>
+  <version>1.0.8</version>
 </dependency>
 ```
 ### Gradle
-compile 'io.github.amarcinkowski:fastxpathaccess:1.0.6'
+```
+compile 'io.github.amarcinkowski:fastxpathaccess:1.0.8'
+```
 
-## Usage example
+## Usage
 Based on http://www.w3schools.com/xml/xml_xpath.asp bookstore XML example.
 ### Xpath Example
 ```java
