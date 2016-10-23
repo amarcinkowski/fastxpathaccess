@@ -1,15 +1,24 @@
-# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess)
+# fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess) [ ![Download](https://api.bintray.com/packages/amarcinkowski/amarcinkowski-repo/fastxpathaccess/images/download.svg) ](https://bintray.com/amarcinkowski/amarcinkowski-repo/fastxpathaccess/_latestVersion)
+
+## Dependency
+### Maven
+```xml
+<dependency>
+  <groupId>io.github.amarcinkowski</groupId>
+  <artifactId>fastxpathaccess</artifactId>
+  <version>1.0.6</version>
+  <type>pom</type>
+</dependency>
+```
+### Gradle
+compile 'io.github.amarcinkowski:fastxpathaccess:1.0.6'
 
 ## Usage example
-
-### Path
+Based on http://www.w3schools.com/xml/xml_xpath.asp bookstore XML example.
+### Xpath Example
 ```java
 Path filepath = Paths.get("bookstore.xml");
 Xpath.find(filepath, "/bookstore/book[1]/title/@lang");
-```
-### XML contents
-```java
-Xpath.find(xmlString, "/bookstore/book[1]/title/@lang");
 ```
 ### Result
 ```Xpath.find()``` returns ```String[]``` with values
