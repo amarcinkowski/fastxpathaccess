@@ -7,7 +7,6 @@
   <groupId>io.github.amarcinkowski</groupId>
   <artifactId>fastxpathaccess</artifactId>
   <version>1.0.8</version>
-  <type>pom</type>
 </dependency>
 ```
 ### Gradle
