@@ -6,7 +6,7 @@ Fast and easy xpath query tool.
 <dependency>
   <groupId>io.github.amarcinkowski</groupId>
   <artifactId>fastxpathaccess</artifactId>
-  <version>1.0.16</version>
+  <version>1.0.17</version>
 </dependency>
 ```
 available in jcenter repo
@@ -21,7 +21,7 @@ available in jcenter repo
 Soon will be available in Maven Central.
 ### Gradle
 ```
-compile 'io.github.amarcinkowski:fastxpathaccess:1.0.16'
+compile 'io.github.amarcinkowski:fastxpathaccess:1.0.17'
 ```
 
 ## Usage
