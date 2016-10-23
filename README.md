@@ -1,6 +1,7 @@
 # fastXPathAccess [![Build Status](https://travis-ci.org/amarcinkowski/fastxpathaccess.svg?branch=master)](https://travis-ci.org/amarcinkowski/fastxpathaccess) [ ![Download](https://api.bintray.com/packages/amarcinkowski/amarcinkowski-repo/fastxpathaccess/images/download.svg) ](https://bintray.com/amarcinkowski/amarcinkowski-repo/fastxpathaccess/_latestVersion) [![Coverage Status](https://coveralls.io/repos/github/amarcinkowski/fastxpathaccess/badge.svg)](https://coveralls.io/github/amarcinkowski/fastxpathaccess)
 Fast and easy xpath query tool.
 ## Dependency
+Available in Maven Central and Bintray's jcenter repositories.
 ### Maven
 ```xml
 <dependency>
@@ -9,7 +10,6 @@ Fast and easy xpath query tool.
   <version>1.0.17</version>
 </dependency>
 ```
-available in Maven Central and Bintray's jcenter repositories.
 ### Gradle
 ```
 compile 'io.github.amarcinkowski:fastxpathaccess:1.0.17'
