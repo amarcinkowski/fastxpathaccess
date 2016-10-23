@@ -9,16 +9,7 @@ Fast and easy xpath query tool.
   <version>1.0.17</version>
 </dependency>
 ```
-available in jcenter repo
-```xml
- 	<repositories>
-		<repository>
-			<id>jcenter</id>
-			<url>https://jcenter.bintray.com/</url>
-		</repository>
-	</repositories>
-```
-Soon will be available in Maven Central.
+available in Maven Central and Bintray's jcenter repositories.
 ### Gradle
 ```
 compile 'io.github.amarcinkowski:fastxpathaccess:1.0.17'
