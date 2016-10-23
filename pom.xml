@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.amarcinkowski</groupId>
 	<artifactId>fastxpathaccess</artifactId>
-	<version>1.0.17-SNAPSHOT</version>
+	<version>1.0.17</version>
 	<packaging>jar</packaging>
 	<name>fastXpathAccess</name>
 	<description>Fast and easy way to query XPath in XML files</description>
@@ -25,7 +24,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/amarcinkowski/fastxpathaccess</connection>
 		<url>https://github.com/amarcinkowski/fastxpathaccess</url>
-		<tag>HEAD</tag>
+		<tag>fastxpathaccess-1.0.17</tag>
 	</scm>
 	<dependencies>
 		<dependency>
