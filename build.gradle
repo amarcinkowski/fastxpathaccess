@@ -10,6 +10,17 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+group = 'io.github.amarcinkowski'
+
+task writeNewPom << {
+    pom {
+        project {
+		packaging "jar"
+        }
+    }.writeTo("$buildDir/pom.xml")
+}
 
 repositories {
     jcenter()
@@ -27,7 +38,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
 	        from components.java
-	            groupId 'io.github.amarcinkowski'
+	            groupId "${group}"
 	            artifactId 'fastxpathaccess'
 	            version "${project.version}"
         }
