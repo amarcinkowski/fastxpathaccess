@@ -6,12 +6,26 @@
 <dependency>
   <groupId>io.github.amarcinkowski</groupId>
   <artifactId>fastxpathaccess</artifactId>
-  <version>1.0.8</version>
+  <version>1.0.16</version>
 </dependency>
 ```
+and bintray repository
+```xml
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-amarcinkowski-amarcinkowski-repo</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/amarcinkowski/amarcinkowski-repo</url>
+		</repository>
+	</repositories>
+```
+
 ### Gradle
 ```
-compile 'io.github.amarcinkowski:fastxpathaccess:1.0.8'
+compile 'io.github.amarcinkowski:fastxpathaccess:1.0.16'
 ```
 
 ## Usage
