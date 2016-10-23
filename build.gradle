@@ -17,7 +17,7 @@ group = 'io.github.amarcinkowski'
 task writeNewPom << {
     pom {
         project {
-		packaging "jar"
+		  packaging "jar"
         }
     }.writeTo("$buildDir/pom.xml")
 }
