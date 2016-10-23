@@ -14,7 +14,7 @@
 compile 'io.github.amarcinkowski:fastxpathaccess:1.0.8'
 ```
 
-## Usage example
+## Usage
 Based on http://www.w3schools.com/xml/xml_xpath.asp bookstore XML example.
 ### Xpath Example
 ```java
